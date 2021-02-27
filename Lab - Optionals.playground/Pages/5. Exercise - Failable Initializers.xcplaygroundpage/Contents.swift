@@ -3,6 +3,11 @@
  
  Create a `Computer` struct with two properties, `ram` and `yearManufactured`, where both parameters are of type `Int`. Create a failable initializer that will only create an instance of `Computer` if `ram` is greater than 0, and if `yearManufactured` is greater than 1970, and less than 2017.
  */
+struct Computer {
+    var ram: Int
+    var yearManufactured: Int
+}
+
 
 
 /*:
